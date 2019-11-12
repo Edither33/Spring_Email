@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test?characterEncoding=utf-8&usessl=false&serverTimezone=UTC
+    username: root
+    password: 123456
+  mail:
+    username: 1398769331@qq.com
+    password: jmceaajfvbngjcge
+    host: smtp.qq.com
+    properties:
+      smtp:
+        ssl:
+          enable: true
+  jpa:
+    show-sql: true
+
+mail:
+  subject: 测试
+  sendText: 欢迎加入我们,welcome to join us ！！！
+server:
+  port: 8089
