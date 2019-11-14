@@ -23,6 +23,5 @@ import java.util.List;
 @RestController
 @RequestMapping("user")
 public class UserExtendController extends UserController {
-  
    
 }
